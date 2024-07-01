@@ -1,4 +1,4 @@
-com/example/CRUDapplication/model/Book.class
-com/example/CRUDapplication/CruDapplicationApplication.class
-com/example/CRUDapplication/controller/BookController.class
-com/example/CRUDapplication/repo/Bookrepo.class
+com\example\CRUDapplication\controller\BookController.class
+com\example\CRUDapplication\model\Book.class
+com\example\CRUDapplication\CruDapplicationApplication.class
+com\example\CRUDapplication\repo\Bookrepo.class

@@ -65,8 +65,8 @@ public class BookController {
 		
 		if(oldbookData.isPresent()) {
 			Book updatedbookdata = oldbookData.get();
-			updatedbookdata.setTitle(book.getTitle());
-			updatedbookdata.setAuthor(book.getAuthor());
+//			updatedbookdata.setTitle(book.getTitle());
+//			updatedbookdata.setAuthor(book.getAuthor());
 			
 			Book bookObj=bookrepo.save(updatedbookdata);
 			return new ResponseEntity<>(bookObj,HttpStatus.OK);
